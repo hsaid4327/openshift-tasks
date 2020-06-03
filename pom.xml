@@ -52,7 +52,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
     </properties>
 
-    <repositories>
+  <!--  <repositories>
         <repository>
             <id>openshift-repository</id>
             <url>https://mirror.openshift.com/nexus/content/groups/public</url>
@@ -68,7 +68,7 @@
             <id>nexus</id>
             <url>http://nexus:8081/content/repositories/snapshots</url>
         </snapshotRepository>
-    </distributionManagement>
+    </distributionManagement> -->
 
     <dependencyManagement>
         <dependencies>
